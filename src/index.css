@@ -1,0 +1,353 @@
+/* :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+html{
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 20px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color:white;
+}
+
+.navAnchor {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin: 10px; 
+}
+
+.navAnchor a{
+  text-decoration: none;
+  font-size: 15pz;
+  color: black;
+}
+.logoTwo i{
+  margin: 10px;
+  color: rgb(149, 180, 207);
+}
+
+/* The stylying for the firstnavstop starts here */
+.thenAV {
+  display: flex;
+  justify-content: space-between;
+   background-color: white;
+  justify-content:space-between;
+  align-items: center; 
+}
+
+.thenAV.dark {
+  background-color: black;
+  color: white;
+}
+
+.theHeaderCont.dark{
+  background-color: black;
+}
+
+
+.thenAV img{
+  width: 30px;
+}
+.theElementInNav  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.theElementInNav ul{
+  list-style: none;
+ 
+}
+
+.searchBarDiv{
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+
+.searchBarDiv input{
+  background-color: transparent;
+  border: none;
+}
+
+.searchBarDiv input::placeholder{
+  font-size: 15px;
+  padding: 10px;
+}
+
+/* https: //www.youtube.com/watch?v=5mO-T2o9zuk&t=64s */
+/* The stylying for the firstnavstop ends here */
+
+
+.hero{
+  background-color:rgb(149, 180, 207) ;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.hero.dark{
+  background-color: black;
+  color: white;
+}
+
+.hero-banner{
+  margin: auto;
+  width: 35%;
+  justify-content: center;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-banner h1{
+  font-size: 35px;
+  color: aliceblue;
+  margin: auto;
+  padding: 5px;
+  margin: 5px auto;
+}
+
+.hero-banner p{
+  font-size: 15px;
+  color: aliceblue;
+  text-align: center;
+}
+
+
+.hero-banner a{
+  font-size: 20px;
+  background-color: aliceblue;
+  color: rgb(149, 180, 207);
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  margin: auto;
+  
+}
+
+/* this is the part for the second session */
+/* .aboutContainer{
+  background-color: red;
+} */
+/* .aboutContainer.dark{
+  background-color: green;
+} */
+.aboutContainerOne .aboutContainer h1{
+  color: white;
+}
+.aboutContainer h1{
+  text-align: center;
+  /* margin: 15px; */
+}
+#firstTextSpan{
+  color: rgb(149, 180, 207);
+}
+
+.aboutpage{
+  background-color: blue;
+}
+
+.aboutpage.dark{
+  background-color: green; 
+}
+
+.aboutpage.dark h2{
+  color: brown; 
+}
+
+.aboutpage.dark p{
+  color: white;
+}
+.aboutContent{
+  display: flex;
+}
+
+.imageOneDiv{
+  width: 50%;
+}
+
+.imageOneDiv img{
+  width: 600px;
+  padding: 20px;
+}
+
+.contTwoDiv{
+  width: 50%;
+  padding: 10px;
+}
+.contTwoDiv h2{
+  font-size: 22px;
+  color: white;
+}
+.contTwoDiv p{
+  font-size: 18px;
+  color: rgb(245, 238, 238);
+}
+.contTwoDiv button{
+  font-size: 20px;
+  background-color: rgb(149, 180, 207) ;
+  padding: 10px;
+  border: 0px;
+}
+
+/* This is our service session */
+.services{
+  background-color: white;
+}
+
+.services.dark{
+  background-color: black;
+}
+
+
+.servContDiv{
+  display: flex;
+  width: 85%;
+  margin: auto;
+}
+
+
+#ourId{
+    text-align: center;
+}
+
+#ourIdSpan{
+  color: rgb(149, 180, 207);
+}
+.serviceDiv{
+  padding: 15px 15px;
+}
+
+.firstServiceDiv, .secondServiceDiv, .thirdServiceDiv{
+  width: 33%;
+}
+.services.dark .firstServiceDiv p,.services.dark .firstServiceDiv h3{
+  color: white;
+}
+.services.dark .firstServiceDiv i{
+  color: aqua;
+}
+
+.services.dark .aboutContainer h1{
+  color: blue;
+}
+/* the feature styling starts here */
+.tourCont.dark{
+  background-color: green;
+}
+.featureDiv{
+  padding: 15px 15px; 
+}
+
+/* .theTourSess{
+  width: 100%;
+} */
+
+.featuredContent{
+  width: 85%;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  align-items: center;
+  margin: auto;
+  /* flex-wrap: wrap; */
+}
+
+#idInFeature{
+  text-align: center;
+}
+
+#idTours{
+  color: rgb(149, 180, 207);
+}
+
+
+/* the styling for the three content with images starts here */
+.featcontDiv{
+  margin: 10px;
+  padding: 10px;
+}
+
+.featcontDiv img{
+  width: 100%;
+/* width: 333px; */
+}
+
+.featcontDiv p{
+  color: red;
+  text-align: justify;
+}
+
+/* this is for the content under the image */
+.underImgCont{
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+/* this is where the footer start. */
+footer{
+  background-color: rgb(104, 58, 104);
+  padding: 30px 30px;
+}
+
+.footLink{
+  width: 25%;
+  margin: auto;
+}
+
+.footLink a{
+  margin: 0px 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.footlogoTwo{
+  width: 15%;
+  margin: auto;
+  padding: 20px 20px;
+}
+
+.footlogoTwo i{
+  margin: 0px 10px;
+  color: white;
+  font-size: 16px;
+}
+
+.footcopyright{
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
