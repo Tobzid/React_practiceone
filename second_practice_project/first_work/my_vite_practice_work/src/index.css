@@ -1,0 +1,162 @@
+/* This styling for the Second.jsx starts here */
+.deleteContainer{
+    width: 200px;
+    padding:10px 20px;
+    border-radius: 10px;
+    background-color: aqua;
+    margin: auto;
+}
+
+.deleteContainer h4{
+    font-size: 20px;
+    color: black;
+}
+.deleteContainer button{ 
+    font-size: 18px;
+ padding: 10px;
+ margin: 10px 0px;
+ background-color: aliceblue;
+ color: black;
+ border-radius: 10px;
+}
+
+/* This styling for the Second.jsx ends here */
+
+/* This is where the stylying for the third.jsx starts */
+.objUseCont{
+        width: 200px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: aqua;
+        margin: auto;
+        font-size: 20px;
+}
+
+.objUseCont .btn{
+    background-color: crimson;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px;
+}
+/* This is where the stylying for the third.jsx ends */
+
+/* The styling for the forth.jsx starts here */
+/* 125 Controlled inputs on udemy */
+.control-form-div{
+    width: 40%;
+    margin: auto;
+    background-color:crimson;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.control-form-div h4{
+    text-align: center;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+}
+
+.btn-submit{
+    width: 100%;
+    padding-top: 5px;
+    font-size: 15px;
+    background-color: blue;
+    border: 0px;
+    color: white;
+}
+/* The styling for the forth.jsx ends here */
+
+/* The styling for the fifth.jsx starts here */
+.user-form{
+    background-color: rgb(84, 147, 202);
+    font-size: 20px;
+    color: crimson;
+    width: 300px;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+.for-r-w{
+    display: flex;
+    flex-direction: column;
+}
+
+.submitBtn{
+    padding: 6PX;
+    border-radius: 8px;
+    margin-top: 5px;
+    font-size: 18px;  
+    color: crimson;
+    width: 100%;
+}
+
+/* .user-form button{
+    text-align: center;
+} */
+/* The styling for the fifth.jsx ends here */
+
+/* This is six styling starts here */
+.sixthCont-Div{
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    background-color: crimson;
+    color:white;
+    font-size: 18px;
+}
+
+.six-T{
+    display: flex;
+    flex-direction: column;
+}
+.sit-T-btn{
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* This is six styling ends here */
+
+/* This stylying for seventh.jsx starts here */
+.uncontrolled-div {
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+    font-size: 18px;
+}
+
+.for-data-api{
+    display: flex;
+    flex-direction: column;
+}
+
+.uncontrolled-btn{
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* This stylying for seventh.jsx ends here */
+
+/* The styling for eight.jsx starts here */
+.review{
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 450px;
+    margin: auto;
+}
+
+.nextPrev img{
+    width: 25px;
+}
+/* The styling for eight.jsx ends here */
