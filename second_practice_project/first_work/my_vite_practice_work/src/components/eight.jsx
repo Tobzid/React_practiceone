@@ -2,6 +2,8 @@ import React from "react";
 import { useState } from "react";
 import { info } from "./data";
 import { people } from "./data";
+import FileName from "./fileName";
+
 
 function EightPrevNext(){
 const prevImg = "https://cdn-icons-png.flaticon.com/512/151/151846.png";
@@ -60,6 +62,9 @@ return(
         <>
         <article className="review">
             <div>
+                <div className="fileInfo">
+<FileName file="eight.jsx" repoName="React_practiceone" folderName="second_pratice_project/first_work"/>
+                </div>
 <h4 className="author-review">
     {name}
 </h4>
